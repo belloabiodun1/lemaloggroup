@@ -1,0 +1,602 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Lemalog.com</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet"  href="assets/css/main.css"/>
+		<link rel="stylesheet" href="bt4/css/bootstrap.min.css">
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<nav class="left">
+					<a href="#menu"><span>Menu</span></a>
+				</nav>
+				<a href="index.html" class="logo"><img src="lema....png" alt=""> </a>
+				<nav class="right">
+					<a href="#" class="button alt">visit</a>
+				</nav>
+				<marquee><p class="pl">Lemaloggroup Integrated Services Limited</p></marquee>
+			</header>
+
+		<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">about</a></li>
+					<li><a href="Logis.html">Logistics</a></li>
+					<li><a href="real.html">Real Estate</a></li>
+					<li><a href="IT.html">I.T Collections</a></li>
+				</ul>
+				<ul class="actions vertical">
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section id="banner2">
+			<div class="content">
+					<p class="realp"> Welcome To Real-Estates <br><h1> Your best login for all Real-Estates </p></h1>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">Get Started</a></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<style>
+					body {
+					  font-family: Arial;
+					  margin: 0;
+					}
+					
+					* {
+					  box-sizing: border-box;
+					}
+					
+					img {
+					  vertical-align: middle;
+					}
+					
+					/* Position the image container (needed to position the left and right arrows) */
+					.container {
+					  position: relative;
+					  width: 100%;
+					}
+					
+					/* Hide the images by default */
+					.mySlides {
+					  display: none;
+					}
+					
+					/* Add a pointer when hovering over the thumbnail images */
+					.cursor {
+					  cursor: pointer;
+					}
+					
+					/* Next & previous buttons */
+					.prev,
+					.next {
+					  cursor: pointer;
+					  position: absolute;
+					  top: 40%;
+					  width: auto;
+					  padding: 16px;
+					  margin-top: -50px;
+					  color: white;
+					  font-weight: bold;
+					  font-size: 20px;
+					  border-radius: 0 3px 3px 0;
+					  user-select: none;
+					  -webkit-user-select: none;
+					}
+					
+					/* Position the "next button" to the right */
+					.next {
+					  right: 0;
+					  border-radius: 3px 0 0 3px;
+					}
+					
+					/* On hover, add a black background color with a little bit see-through */
+					.prev:hover,
+					.next:hover {
+					  background-color: rgba(0, 0, 0, 0.8);
+					}
+					
+					/* Number text (1/3 etc) */
+					.numbertext {
+					  color: #f2f2f2;
+					  font-size: 12px;
+					  padding: 8px 12px;
+					  position: absolute;
+					  top: 0;
+					}
+					
+					/* Container for image text */
+					.caption-container {
+					  text-align: center;
+					  background-color: rgb(196, 11, 11);
+					  padding: 2px 16px;
+					  color: white;
+					}
+					
+					.row:after {
+					  content: "";
+					  display: table;
+					  clear: both;
+					}
+					
+					/* Six columns side by side */
+					.column {
+					  float: left;
+					  width: 16.66%;
+					}
+					
+					/* Add a transparency effect for thumnbail images */
+					.demo {
+					  opacity: 1.5;
+					}
+					
+					.active,
+					.demo:hover {
+					  opacity: .4;
+					}
+					</style>
+					<body>
+					
+					<h2 style="text-align:center">Slideshow Gallery</h2>
+					
+					<div class="container">
+					  <div class="mySlides">
+						 <div class="numbertext">1 / 6 <div class="slidetext"> hjhklhlkjhl;kjnkl</div></div>
+						 <img src="img/c7.jpg" style="width:100%">
+					  </div>
+					
+					  <div class="mySlides">
+						 <div class="numbertext">2 / 6</div>
+						 <img src="img/c6.jpg" style="width:100%">
+					  </div>
+					
+					  <div class="mySlides">
+						 <div class="numbertext">3 / 6</div>
+						 <img src="img/h3.jpg" style="width:100%">
+					  </div>
+						 
+					  <div class="mySlides">
+						 <div class="numbertext">4 / 6</div>
+						 <img src="img/h4.jpg" style="width:100%">
+					  </div>
+					
+					  <div class="mySlides">
+						 <div class="numbertext">5 / 6</div>
+						 <img src="img/b4.jpg" style="width:100%">
+					  </div>
+						 
+					  <div class="mySlides">
+						 <div class="numbertext">6 / 6</div>
+						 <img src="img/b6.jpg" style="width:100%">
+					  </div>
+						 
+					  <a class="prev" onclick="plusSlides(-1)">❮</a>
+					  <a class="next" onclick="plusSlides(1)">❯</a>
+					
+					  <div class="caption-container">
+						 <p id="caption"></p>
+					  </div>
+					
+					  <div class="row">
+						 <div class="column">
+							<img class="demo cursor" src="img_woods.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+						 </div>
+						 <div class="column">
+							<img class="demo cursor" src="img_5terre.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+						 </div>
+						 <div class="column">
+							<img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+						 </div>
+						 <div class="column">
+							<img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+						 </div>
+						 <div class="column">
+							<img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+						 </div>    
+						 <div class="column">
+							<img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+						 </div>
+					  </div>
+					</div>
+					
+					<script>
+					var slideIndex = 1;
+					showSlides(slideIndex);
+					
+					function plusSlides(n) {
+					  showSlides(slideIndex += n);
+					}
+					
+					function currentSlide(n) {
+					  showSlides(slideIndex = n);
+					}
+					
+					function showSlides(n) {
+					  var i;
+					  var slides = document.getElementsByClassName("mySlides");
+					  var dots = document.getElementsByClassName("demo");
+					  var captionText = document.getElementById("caption");
+					  if (n > slides.length) {slideIndex = 1}
+					  if (n < 1) {slideIndex = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex-1].style.display = "block";
+					  dots[slideIndex-1].className += " active";
+					  captionText.innerHTML = dots[slideIndex-1].alt;
+					}
+					</script><div class="slidetext"> hjhklhlkjhl;kjnkl</div>
+						 </section>
+
+			<section id="three" class="wrapper">
+				<div class="inner flex flex-3">
+					<div class="flex-item box">
+						<div class="image fit">
+							<img src="real/h3.jpg" alt="" height="250px">
+						</div>
+						<div class="content">
+							<p class="head1">Description</p>
+							<div class="properties"><p>Name: <br> Color: <br> Prize <br> Model: <br> Contact: </p> </div>
+						</div>
+					</div>
+					<div class="flex-item box">
+						<div class="image fit">
+							<img src="real/h2.jpg" alt="car" height="250px">
+						</div>
+						<div class="content">
+							<p class="head1">Discription</p>
+							<div class="properties"><p>Name: <br> Color: <br> Prize <br> Model: <br> Contact: </p> </div>
+							
+						</div>
+					</div>
+					<div class="flex-item box">
+						<div class="image fit">
+							<img src="real/h1.jpg" alt="car" height="250px">
+						</div>
+						<div class="content">
+							<div class="head1">Description</div>
+							<div class="properties"><p>Name: <br> Color: <br> Prize <br> Model: <br> Contact: </p> </div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="three" class="wrapper">
+				<div class="inner flex flex-3">
+					<div class="flex-item box">
+						<div class="image fit">
+							<img src="real/35.jpg" alt="car" height="250px">
+						</div>
+						<div class="content">
+							<p class="head1">Description</p>
+							 <div class="properties"><p>Name: <br> Color: <br> Prize <br> Model: <br> Contact: </p> </div>
+						</div>
+					</div>
+					<div class="flex-item box">
+						<div class="image fit">
+							<img src="real/h4.jpg" alt="car" height="250px">
+						</div>
+						<div class="content">
+							<p class="head1">Description</p>
+							<div class="properties">
+							<p>Name: <br> Color: <br> Location: <br> Prize<br> Contact: </p> </div>
+						</div>
+					</div>
+					
+					<div class="flex-item box">
+						<div class="image fit">
+							<img src="real/front1.jpg"  height="250px">
+						</div>
+						<div class="content">
+							<p class="head1">Description</p>
+							<div class="properties"><p>Name: <br> Color: <br> Prize <br> Model: <br> Contact: </p> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		<section class="slide"><style>
+			.slide{
+				
+
+			}
+					body {
+					  font-family: Arial;
+					  margin: 0;
+					}
+					
+					* {
+					  box-sizing: border-box;
+					}
+					
+					img {
+					  vertical-align: middle;
+					}
+					
+					/* Position the image container (needed to position the left and right arrows) */
+					.container {
+					  position: relative;
+					}
+					
+					/* Hide the images by default */
+					.mySlides {
+					  display: none;
+					}
+					
+					/* Add a pointer when hovering over the thumbnail images */
+					.cursor {
+					  cursor: pointer;
+					}
+					
+					/* Next & previous buttons */
+					.prev,
+					.next {
+					  cursor: pointer;
+					  position: absolute;
+					  top: 40%;
+					  width: auto;
+					  padding: 16px;
+					  margin-top: -50px;
+					  color: white;
+					  font-weight: bold;
+					  font-size: 20px;
+					  border-radius: 0 3px 3px 0;
+					  user-select: none;
+					  -webkit-user-select: none;
+					}
+					
+					/* Position the "next button" to the right */
+					.next {
+					  right: 0;
+					  border-radius: 3px 0 0 3px;
+					}
+					
+					/* On hover, add a black background color with a little bit see-through */
+					.prev:hover,
+					.next:hover {
+					  background-color: rgba(0, 0, 0, 0.8);
+					}
+					
+					/* Number text (1/3 etc) */
+					.numbertext {
+					  color: #f2f2f2;
+					  font-size: 12px;
+					  padding: 8px 12px;
+					  position: absolute;
+					  top: 0;
+					}
+					
+					/* Container for image text */
+					.caption-container {
+					  text-align: center;
+					  background-color: #222;
+					  padding: 2px 16px;
+					  color: white;
+					}
+					
+					.row:after {
+					  content: "";
+					  display: table;
+					  clear: both;
+					}
+					
+					/* Six columns side by side */
+					.column {
+					  float: left;
+					  width: 16.66%;
+					}
+					
+					/* Add a transparency effect for thumnbail images */
+					.demo {
+					  opacity: 0.6;
+					}
+					
+					.active,
+					.demo:hover {
+					  opacity: 1;
+					}
+					</style>
+					<body>
+					
+					<h2 style="text-align:center">Slideshow Gallery</h2>
+					
+					<div class="container">
+					  <div class="mySlides">
+						 <div class="numbertext">1 / 6</div>
+						 <img src="real2/41.jpg" style="width:100%"height="600px">
+					  </div>
+					
+					  <div class="mySlides">
+						 <div class="numbertext">2 / 6</div>
+						 <img src="real2/42.jpg" style="width:100%" height="600px">
+					  </div>
+					
+					  <div class="mySlides">
+						 <div class="numbertext">3 / 6</div>
+						 <img src="real2/front1.jpg" style="width:100%" height="600px">
+					  </div>
+						 
+					  <div class="mySlides">
+						 <div class="numbertext">4 / 6</div>
+						 <img src="real2/front3.jpg" style="width:100%" height="600px">
+					  </div>
+					
+					  <div class="mySlides">
+						 <div class="numbertext">5 / 6</div>
+						 <img src="real2/36.jpg" style="width:100%"  height="600px">
+					  </div>
+						 
+					  <div class="mySlides">
+						 <div class="numbertext">6 / 6</div>
+						 <img src="real2/front1.jpg" style="width:100%" height="20px">
+					  </div>
+						 
+					  <a class="prev" onclick="plusSlides(-1)">❮</a>
+					  <a class="next" onclick="plusSlides(1)">❯</a>
+					
+					  <div class="caption-container">
+						 <p id="caption"></p>
+					  </div>
+					
+					  <div class="row">
+						 <div class="column">
+							<img class="demo cursor" src="" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+						 </div>
+						 <div class="column">
+							<img class="demo cursor" src="real2/41.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+						 </div>
+						 <div class="column">
+							<img class="demo cursor" src="real2/42.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+						 </div>
+						 <div class="column">
+							<img class="demo cursor" src="real2/front1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+						 </div>
+						 <div class="column">
+							<img class="demo cursor" src="real2/36.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+						 </div>    
+						 <div class="column">
+							<img class="demo cursor" src="real2/front1.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+						 </div>
+					  </div>
+					</div>
+					
+					<script>
+					var slideIndex = 1;
+					showSlides(slideIndex);
+					
+					function plusSlides(n) {
+					  showSlides(slideIndex += n);
+					}
+					
+					function currentSlide(n) {
+					  showSlides(slideIndex = n);
+					}
+					
+					function showSlides(n) {
+					  var i;
+					  var slides = document.getElementsByClassName("mySlides");
+					  var dots = document.getElementsByClassName("demo");
+					  var captionText = document.getElementById("caption");
+					  if (n > slides.length) {slideIndex = 1}
+					  if (n < 1) {slideIndex = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex-1].style.display = "block";
+					  dots[slideIndex-1].className += " active";
+					  captionText.innerHTML = dots[slideIndex-1].alt;
+					}
+					</script>
+				</section>
+				<p class="head2"> Description</p>
+				<p class="head0">Name: <br> Color: <br> Location: <br> Prize<br> Contact: </p>
+						
+<section>
+	<style>
+		div.img {
+			 margin: 5px;
+			 padding: 5px;
+			 border: 1px solid #0000ff;
+			 height: auto;
+			 width: auto;
+			 float: left;
+			 text-align: center;
+			 position: relative;
+		}
+		
+		div.img img {
+			 display: inline;
+			 margin: 5px;
+			 border: 1px solid #ffffff;
+		}
+		
+		div.img a:hover img {
+			 border:1px solid #0000ff;
+		}
+		
+		div.desc {
+			 text-align: center;
+			 font-weight: normal;
+			 width: 120px;
+			 margin: 5px;
+		}
+		</style>
+		</head>
+		<body>
+		
+		<div class="img">
+		  <a target="_blank" href="real2/21.jpg">
+			 <img src="real2/21.jpg" alt="Klematis" width="110" height="90">
+		  </a>
+		  <div class="desc">Add a description of the image here</div>
+		</div>
+		<div class="img">
+		  <a target="_blank" href="real2/22.jpg">
+			 <img src="real2/22.jpg" alt="Klematis" width="110" height="90">
+		  </a>
+		  <div class="desc">Add a description of the image here</div>
+		</div>
+		<div class="img">
+		  <a target="_blank" href="real2/23.jpg">
+			 <img src="real2/23.jpg" alt="Klematis" width="110" height="90">
+		  </a>
+		  <div class="desc">Add a description of the image here</div>
+		</div>
+		<div class="img">
+		  <a target="_blank" href="real2/24.jpg">
+			 <img src="real2/24.jpg" alt="Klematis" width="110" height="90">
+		  </a>
+		  <div class="desc">Add a description of the image here</div>
+		</div></body>
+		
+<p class="head2"> </p>
+<p class="head0"></p>
+</section>
+
+				
+					
+	
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<h2>Get In Touch</h2>
+					<ul class="actions">
+						<li><span class="icon fa-phone"></span> <a href="#">08098349943</a></li>
+						<li><span class="icon fa-envelope"></span> <a href="index.html">Lemaloggroup@gmail.com</a></li>
+						<li><span class="icon fa-phone,"></span> <a href="#">contact ceo @ Baasitdeji@gmail.com</a></li>
+						<li><span class="icon fa-map-marker"></span>Jadeshola Oshodi street,<br/>off Brown road, Aguda, Surulere, Lagos</li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; @Lemalog<a href="index.html">lemalog.com</a>. Images <a href="index.html">a product of lemalog company</a>.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="bt4/js/bootstrap.min.js"></script>
+			<script src="bt4/js/bootstrap.bundle.min.js"></script>
+
+
+
+	</body>
+</html>
